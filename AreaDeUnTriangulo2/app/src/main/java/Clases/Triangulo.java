@@ -21,7 +21,7 @@ public class Triangulo {
 
     // Asignacion de valor al lado b por medio de un parametro
     public void setLadoB (float B){
-        this.ladoA = B;
+        this.ladoB = B;
     }//Fin del metodo setLadoB
 
     // Obtener los datos de la variable lado b
@@ -31,7 +31,7 @@ public class Triangulo {
 
     // Asignacion de valor al lado c por medio de un parametro
     public void setLadoC (float C){
-        this.ladoA = C;
+        this.ladoC = C;
     }//Fin del metodo setLadoC
 
     // Obtener los datos de la variable lado c

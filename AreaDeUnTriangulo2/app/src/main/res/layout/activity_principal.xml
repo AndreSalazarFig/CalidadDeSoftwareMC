@@ -16,10 +16,10 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/jTextValorB"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
-        android:id="@+id/editText3"
+        android:id="@+id/jTextValorC"
         android:hint="Ingrese Terce Valor..." />
 
     <EditText
@@ -28,19 +28,19 @@
         android:inputType="numberDecimal"
         android:ems="10"
         android:layout_marginTop="37dp"
-        android:id="@+id/editText2"
+        android:id="@+id/jTextValorB"
         android:hint="Ingrese Segundo Valor..."
-        android:layout_below="@+id/edtValorUno"
+        android:layout_below="@+id/jTextValorA"
         android:layout_alignParentStart="true" />
 
     <Button
         android:text="Calcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText3"
+        android:layout_below="@+id/jTextValorC"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp"
-        android:id="@+id/button" />
+        android:id="@+id/jButtonCalcular" />
 
     <EditText
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
         android:inputType="numberDecimal"
         android:ems="10"
         android:layout_marginTop="176dp"
-        android:id="@+id/edtValorUno"
+        android:id="@+id/jTextValorA"
         android:hint="Ingrese Primer Valor..."
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
